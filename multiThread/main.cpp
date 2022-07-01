@@ -96,7 +96,7 @@ void httpCallback(const HttpRequest& request, HttpResponse& response) {
 
     response.setBody("Hello World!"); // for pressure test
 
-//    std::cout << "Hello World!" << std::endl;
+    std::cout << "Hello World!" << std::endl;
 
     response.setStatusCode(HttpResponse::k200OK);
     response.setStatusMessage("OK");
