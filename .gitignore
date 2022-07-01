@@ -37,3 +37,9 @@ cmake-build-*/
 
 # MAC
 .DS_Store
+
+# cmake&makefile
+cmake_install.cmake
+CMakeFiles/
+CMakeCache.txt
+/Makefile
